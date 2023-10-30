@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Form validation</h1>
+    </header>
+    <section class="container">
+      <form action="" id="my-form">
+        <h1 id="add-user">Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="" />
+        </div>
+        <input id="submit-button" type="submit" class="btn" value="submit" />
+      </form>
+
+      <ul id="users"></ul>
+
+      <ul class="items"></ul>
+    </section>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/select.js"></script>
+    <script src="/assets/js/remove.js"></script>
+    <script src="./assets/js/add.js"></script>
+  </body>
+</html>
