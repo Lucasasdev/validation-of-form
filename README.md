@@ -1,8 +1,10 @@
-# form-validation
-A simple form validation using DOM.
+# Form with basic validations
 
-## Tests
-- [image 1](https://github.com/Lucasasdev/form-validation/blob/master/assets/img/form-validation-1.png)
-- [image 2](https://github.com/Lucasasdev/form-validation/blob/master/assets/img/form-validation-2.png)
-- [image 3](https://github.com/Lucasasdev/form-validation/blob/master/assets/img/form-validation-3.png)
-- [image 4](https://github.com/Lucasasdev/form-validation/blob/master/assets/img/form-validation-4.png)
+### Projeto
+Um simples formulário. Recebe duas entradas de dados, nome e senha. Após isso, executa algumas válidações de entrada e mostra os dados cadastrados e validados abaixo do formulário.
+
+### Tecnologias utilizadas;
+- HTML
+- CSS
+- JavaScript
+  
